@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56397622391",
+    "project_id": "ekura-a6cea",
+    "storage_bucket": "ekura-a6cea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56397622391:android:b3ad3b768d00ee53c96a72",
+        "android_client_info": {
+          "package_name": "com.example.ekura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56397622391-hi2t44ko2fntq14djlbchvej9jl7d98f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNcPO6EJKj1mnPohHl1l4ysXcbSHO3JmU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56397622391-hi2t44ko2fntq14djlbchvej9jl7d98f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
