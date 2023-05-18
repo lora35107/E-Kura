@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:backgroundTint="#e6e6cd"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
 
@@ -12,39 +13,44 @@
         android:layout_height="200dp"
         android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/ekuraperfect" />
+        app:srcCompat="@drawable/ekuranobg" />
 
     <EditText
         android:id="@+id/edt_email_login"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Enter your email address"
-        android:textColorHint="@color/black"
-        android:layout_marginTop="310dp"
-        android:layout_centerHorizontal="true"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black" />
 
     <EditText
         android:id="@+id/edt_pass_login"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Enter your password"
-        android:textColorHint="@color/black"
-        android:layout_marginTop="390dp"
-        android:layout_centerHorizontal="true"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
 
     <Button
         android:id="@+id/btn_login"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="60dp"
-        android:text="LOG IN"
-        android:backgroundTint="#5aa69d"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/black"
-        android:layout_marginTop="470dp"/>
+        android:layout_marginTop="470dp"
+        android:backgroundTint="#000"
+        android:text="LOG IN"
+        android:textColor="#e6e6cd"
+        app:cornerRadius="40dp" />
 
     <TextView
         android:id="@+id/txt_reg_login"
@@ -53,7 +59,7 @@
         android:text="Don't have an account?Register here"
         android:textColor="#5aa69d"
         android:layout_marginTop="550dp"
-        android:textSize="20sp"
+        android:textSize="13sp"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
 
